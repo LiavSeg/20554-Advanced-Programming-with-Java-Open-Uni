@@ -27,15 +27,11 @@ public  class DataBase {
 				}
 			tempData[YEAR_INDEX] = year;
 			_temps.add(tempData);
-			}
-		
-			
+			}	
 		}
 	//gets the i-th year's data 
 	public int[] getData(int i){
 	    return _temps.get(i);
 
-	}
-	
-       
+	}  
     }
