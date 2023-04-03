@@ -25,18 +25,18 @@ public class TmprGrphController {
     private final int TEMP_GAP = 10;//Constant gap for the temperature display 
     private final double SCALE = 5;//Scaler for the temperature graphs 
     private final int HEAD_SCALER = 3;//Scaler for the headline's position 
-
-    
+    private int _j=0;	
+    private DataBase _yearTemps = new DataBase();
     public void initialize() {//INI
     	gc = canv.getGraphicsContext2D(); 
     	gcHead = headLine.getGraphicsContext2D(); 
     	gcMonths = monthsNum.getGraphicsContext2D(); 
     	 }
-    int j=0;
-    DataBase yearTemps = new DataBase();
+   
+    
     @FXML
     void nextGrph(ActionEvent event){
-    	int[] arr = yearTemps.getData(j);
+    	int[] arr = _yearTemps.getData(j);
     	int k,max,min;
     	k=min=max=1;
     	
@@ -72,7 +72,7 @@ public class TmprGrphController {
 		gc.setFill(Color.BLUE);
 		gc.fillRect(GAP*(min), canv.getHeight()-arr[min]*SCALE ,WIDTH,  canv.getHeight());
 		gcMonths.strokeText(""+min, GAP*(min), monthsNum.getHeight()-WIDTH);
-    	j++;
+    	_j++;
     	//In case more than one month is minimum/max average temperature mark the rest
     	for( k = 1 ;k<=MONTHS;k++) {
     		int maxTemp = arr[max];
@@ -90,7 +90,7 @@ public class TmprGrphController {
     	}	
     	
     	//condition for a repetitive display of the annual climate graphs - 5 years in total
-    	if(j==SCALE)
-    		j=0;	
+    	if(_j==SCALE)
+    		_j=0;	
    } 
 }
