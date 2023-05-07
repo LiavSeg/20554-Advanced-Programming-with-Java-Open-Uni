@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SodukoController">
+   <children>
+      <GridPane fx:id="numGrid" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="490.0">
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+      <HBox alignment="CENTER" prefHeight="28.0" prefWidth="506.0">
+         <children>
+            <Button fx:id="setBtn" alignment="CENTER" mnemonicParsing="false" onAction="#setPressed" prefHeight="25.0" prefWidth="53.0" text="Set" />
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#clearPressed" prefHeight="25.0" prefWidth="60.0" text="Clear" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
