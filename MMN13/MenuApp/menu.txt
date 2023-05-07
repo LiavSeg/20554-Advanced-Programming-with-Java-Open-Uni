@@ -1,0 +1,93 @@
+Carbonara
+main
+63
+T-bone steak
+main
+123
+Hambuger
+main
+98
+Rib Steak
+main
+160
+Linguine
+main
+72
+Carbonara
+main
+76
+Shrimps Pasta
+main
+94
+Lasagna 
+main
+78
+Lemon pie
+dessert
+56
+Almond Cake
+dessert
+56
+Apple Crostata
+dessert
+52
+Tiramisu
+dessert
+56
+Choco Mousse
+dessert
+56
+Cheescake
+dessert
+42
+Shrimp
+appetizer
+62
+Seviche
+appetizer
+58
+Bread & Butter
+appetizer
+20
+Bread
+appetizer
+23
+Focaccia
+appetizer
+32
+Tomato Salad
+appetizer
+48
+Herb Salad
+appetizer
+42
+Fried Calamari
+appetizer
+49
+Bread
+appetizer
+23
+Wine
+drink
+23
+Spritz Aperol
+drink
+52
+Mojito 
+drink
+53
+Negroni
+drink
+52
+San Pellegrino
+drink
+16
+Mineral Water
+drink
+12
+Beer
+drink
+23
+Coca cola
+drink
+23
