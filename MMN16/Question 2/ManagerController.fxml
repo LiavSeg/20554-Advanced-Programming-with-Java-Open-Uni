@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="237.0" prefWidth="487.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ManagerController">
+   <children>
+      <Text fill="WHITE" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Server Manager " wrappingWidth="333.13671875">
+         <font>
+            <Font name="System Italic" size="44.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="msgArea" prefHeight="113.0" prefWidth="487.0" />
+      <HBox alignment="BOTTOM_CENTER" prefHeight="55.0" prefWidth="691.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#sendPressed" prefHeight="25.0" prefWidth="155.0" text="Send" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
