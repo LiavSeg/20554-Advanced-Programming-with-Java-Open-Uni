@@ -5,4 +5,4 @@
 * mmn13: GUI,Menu application and fully functional Soduko game; grade - 100 
 * mmn14: Generic pograming; grade - 100
 * mmn15: Threads and Threaded animations; grade - 96
-* mmn16: Threads and Servers; grade - 100
+* mmn16: Threads,GUI and Servers; grade - 100
