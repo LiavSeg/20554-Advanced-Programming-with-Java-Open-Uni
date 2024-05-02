@@ -42,8 +42,6 @@ This project implements a trivia game using JavaFX, along with a server-client a
 4. Compile and run the `ClientClass.java` file to start the client interface.
 5. Play the game by selecting answers to the questions displayed.
 
-## Screenshots
-(Include screenshots of the game interface and server console, if available)
 
 ## Credits
 - Developed by Liav Segev
